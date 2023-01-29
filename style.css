@@ -1,0 +1,90 @@
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.463) , rgba(255, 255, 0, 0.377));
+    border-radius: 10px;
+}
+.first{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+.intro{
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+.intro p{
+    text-align: justify;
+}
+.intro img{
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+span{
+    color: orange;
+}
+.second{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about{
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+.about img{
+    width: 75%;
+    margin-top: 30px;
+}
+.abb{
+    margin-right: 90px;
+}
+.abb p{
+    text-align: justify;
+}
+.fourth{
+    display: flex;
+}
+.fifth{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 140px;
+    padding-right: 60px;
+    margin-bottom: 70px;
+}
+.third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#ss{
+    border-left: 12px solid orange;
+}
+#sd{
+    border-left: 12px solid blue;
+}
+footer{
+    text-align: center;
+}
